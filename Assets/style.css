@@ -12,8 +12,14 @@ body {
 
   }
 
+  .nav ul li {
+
+    font-family: 'Roboto Mono', monospace;
+ 
+   }
+
    /* Nav bar label styling */
-  .nav a {
+  .nav ul li a {
 
     float: right;
     color: #f2f2f2;
@@ -23,6 +29,14 @@ body {
     padding: 20px;
  
    }
+
+   .nav ul li a:hover {
+
+    border-bottom: 3px solid orangered;
+    transition: all 0.1s ease-in-out;
+ 
+   }
+
 
    /* Hero image styling */
 
@@ -49,3 +63,206 @@ body {
     color: white;
 
   }
+
+  .about-me aside {
+
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 70px;
+   
+  }
+
+  #About-Me {
+
+    font-size: 60px;
+    padding-right: 30px;
+
+  }
+
+  .about-me div {
+
+    height: 200px;
+    border-right: 3px solid red; 
+    margin-bottom: 70px;
+  }
+
+  .about-me aside h1 {
+
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+    padding-right: 20px;
+    padding-top: 20px;
+   
+  }
+
+  .about-me aside h1:hover {
+
+    color: orangered;
+    transition: all 0.5s ease-in-out;
+   
+  }
+
+  .about-me p {
+
+    margin-left: 350px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+
+  }
+
+  .work aside {
+
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 70px;
+   
+  }
+
+  #My-Work {
+
+    font-size: 60px;
+    padding-right: 30px;
+
+  }
+
+  .work div {
+
+    height: 200px;
+    border-right: 3px solid red;
+    margin-bottom: 70px;
+  }
+
+  .work aside h1 {
+
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+    padding-right: 20px;
+    margin-left: 26px;
+    padding-top: 20px;
+   
+  }
+
+  .work aside h1:hover {
+
+    color: orangered;
+    transition: all 0.5s ease-in-out;
+   
+  }
+
+  .work p {
+
+    margin-left: 362px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+
+  }
+
+  .contact aside {
+
+    float: left;
+    margin-left: 100px;
+    display: flex;
+    margin-bottom: 70px;
+   
+  }
+
+  #Contact-Me {
+
+    font-size: 60px;
+    padding-right: 30px;
+
+  }
+
+  .contact div {
+
+    height: 200px;
+    border-right: 3px solid red;
+    margin-bottom: 70px;
+  }
+
+  .contact aside h1 {
+
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+    padding-right: 20px;
+    margin-left: 25px;
+    padding-top: 20px;
+   
+  }
+
+  .contact aside h1:hover {
+
+    color: orangered;
+    transition: all 0.5s ease-in-out;
+   
+  }
+
+  .contact p {
+
+    margin-left: 350px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+
+  }
+
+  .list-inline {
+
+      list-style: none;
+      margin-left: -0.5em;
+      margin-right: -0.5em;
+      padding-left: 0;
+      padding-top: 145px;
+    }
+
+    .list-inline li {
+
+      display: inline-block;
+	    margin-left: 0.5em;
+	    margin-right: 0.5em;
+      
+    }
+
+    .list-inline li a {
+
+      text-decoration: none;
+      font-size: 50px;
+      font-family: 'Roboto Mono', monospace;
+      font-weight: bold;
+      
+    }
+
+    .list-inline li a:visited{
+
+      text-decoration: none;
+      color: orangered;
+      
+    }
+
+
+    
+  
+
+  
+
+
+
+ 
+
+
+ 
+
+
+  
+
+
+  
+
+
+
+  
