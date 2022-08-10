@@ -1,281 +1,302 @@
-  body {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.3;
-  }
-
-  /* Nav color and overflow property in case of content overflow */
-  .nav {
-
-   overflow: hidden;
-   background-color: #333;
-
-  }
-
-  .nav ul li {
-
-    font-family: 'Roboto Mono', monospace;
-
-   }
-
-   /* Nav bar label styling */
-    .nav ul li a {
-
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-    padding: 20px;
- 
-   }
-
-   .nav ul li a:hover {
-
-    color: orangered;
-    transition: all 0.5s ease-in-out;
- 
-   }
-
-
-   /* Hero image styling */
-
- .hero {
-
-    height: 400px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/palm_springs.jpg");
-    background-size: cover;
-    background-position: center;
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
 }
 
-    /* Hero iamge overlay text stying */
-  .hero .text {
-    
-    font-family: 'Roboto Mono', monospace; 
-    text-align: center;
-    position: relative;
-    top: 150px;
-    left: 50px;
-    font-weight: bold;
-    font-size: 60px;
-    color: white;
+/* Nav color and overflow property in case of content overflow */
+.nav {
+  overflow: hidden;
+  background-color: #333;
+}
 
-  }
+.nav ul li {
+  font-family: "Roboto Mono", monospace;
+}
 
-  .about-me aside {
+/* Nav bar label styling */
+.nav ul li a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 20px;
+}
 
-    float: left;
-    margin-left: 100px;
-    margin-bottom: 70px;
-   
-  }
+.nav ul li a:hover {
+  color: orangered;
+  transition: all 0.5s ease-in-out;
+}
 
-  #About-Me {
+/* Hero image styling */
 
-    font-size: 60px;
-    padding-right: 30px;
+.hero {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Assets/palm_springs.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
-  }
+/* Hero iamge overlay text stying */
+.hero .text {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  left: 50px;
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
+}
 
-  .about-me aside h1 {
+.about-me aside {
+  float: left;
+  margin-left: 100px;
+  margin-bottom: 70px;
+}
 
-    font-size: 50px;
-    font-family: 'Roboto Mono', monospace;
-    padding-right: 20px;
-    padding-top: 20px;
-    height: 200px;
-    border-right: 3px solid red; 
-    margin-bottom: 70px;
-   
-  }
+#About-Me {
+  font-size: 60px;
+  padding-right: 30px;
+}
 
-  .about-me p {
+.about-me aside h1 {
+  font-size: 50px;
+  font-family: "Roboto Mono", monospace;
+  padding-right: 20px;
+  padding-top: 20px;
+  height: 200px;
+  border-right: 3px solid red;
+  margin-bottom: 70px;
+}
 
-    margin-left: 350px;
-    margin-right: 50px;
-    margin-bottom: 70px;
-    font-size: 25px;
-    font-family: 'Roboto Mono', monospace;
+.about-me p {
+  margin-left: 350px;
+  margin-right: 50px;
+  margin-bottom: 70px;
+  font-size: 25px;
+  font-family: "Roboto Mono", monospace;
+}
 
-  }
+.work aside {
+  float: left;
+  margin-left: 100px;
+  margin-bottom: 70px;
+}
 
-  .work aside {
+#My-Work {
+  font-size: 60px;
+  padding-right: 30px;
+}
 
-    float: left;
-    margin-left: 100px;
-    margin-bottom: 70px;
-   
-  }
+.work aside h1 {
+  font-size: 50px;
+  font-family: "Roboto Mono", monospace;
+  padding-right: 20px;
+  margin-left: 26px;
+  padding-top: 20px;
+  height: 990px;
+  border-right: 3px solid red;
+  margin-bottom: 70px;
+}
 
-    #My-Work {
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 25px;
+  column-gap: 0;
+}
 
-    font-size: 60px;
-    padding-right: 30px;
+.gallery .case-study-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  justify-self: end;
+}
 
-    }
+.gallery li #p1 {
+  border: 5px solid orange;
+  justify-self: center;
+  max-height: 200%;
+  max-width: 200%;
+}
 
-  .work aside h1 {
+.gallery .case-study-1 .text-container {
+  position: relative;
+}
 
-    font-size: 50px;
-    font-family: 'Roboto Mono', monospace;
-    padding-right: 20px;
-    margin-left: 26px;
-    padding-top: 20px;
-    height: 990px;
-    border-right: 3px solid red;
-    margin-bottom: 70px;
-   
-  }
+.gallery .case-study-1 .text-container .text-overlay {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
-    
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-    }
+.gallery .case-study-1 .text-container .text-overlay .transbox {
+  margin: 30px;
+  background-color: #afafaf;
+  opacity: 0.6;
+}
 
-    .gallery li #p1 {
+.gallery .case-study-1 .text-container .text-overlay .transbox h2 {
+  font-weight: bold;
+  color: #000000;
+}
 
-      grid-column: 1 / span 2;
-      grid-row-start: 1;
-      grid-row-end: 1;
-      border: 5px solid orange;
-      justify-self: end;
-    }
+.gallery .case-study-2 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  justify-self: end;
+}
 
+.gallery li #p2 {
+  border: 5px solid orange;
+  max-height: 85%;
+  max-width: 85%;
+}
 
-    .gallery li {
+.gallery .case-study-2 .text-container {
+  position: relative;
+}
 
-      justify-self: center;
-    }
+.gallery .case-study-2 .text-container .text-overlay {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-right: 20px;
+  margin-right: 60px;
+}
 
-    .gallery li #p2 {
+.gallery .case-study-2 .text-container .text-overlay .transbox {
+  margin: 30px;
+  background-color: #afafaf;
+  opacity: 0.6;
+}
 
-      grid-column-start: 1;
-      grid-column-end: 1;
-      grid-row-start: 2;
-      grid-row-end: 2;
-      border: 5px solid orange;
-      max-height: 75%;
-    }
+.gallery .case-study-2 .text-container .text-overlay .transbox h2 {
+  font-weight: bold;
+  color: #000000;
+}
 
-    .gallery li #p3 {
+.gallery .case-study-3 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
 
-      grid-column-start: 2;
-      grid-column-end: 2;
-      grid-row-start: 2;
-      grid-row-end: 2;
-      border: 5px solid orange;
-      max-height: 75%;
-    }
+.gallery li #p3 {
+  border: 5px solid orange;
+  max-height: 85%;
+  max-width: 85%;
+}
 
-  .contact {
+.gallery .case-study-3 .text-container {
+  position: relative;
+}
 
-     margin-top: 30px;
-  }
+.gallery .case-study-3 .text-container .text-overlay {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-right: 20px;
+  margin-right: 230px;
+}
 
-  .contact aside {
+.gallery .case-study-3 .text-container .text-overlay .transbox {
+  margin: 30px;
+  background-color: #afafaf;
+  opacity: 0.6;
+}
 
-    float: left;
-    margin-left: 100px;
-    display: flex;
-    margin-bottom: 70px;
-   
-  }
+.gallery .case-study-3 .text-container .text-overlay .transbox h2 {
+  font-weight: bold;
+  color: #000000;
+}
+.contact {
+  margin-top: 30px;
+}
 
-  #Contact-Me {
+.contact aside {
+  float: left;
+  margin-left: 100px;
+  display: flex;
+  margin-bottom: 70px;
+}
 
-    font-size: 60px;
-    padding-right: 30px;
+#Contact-Me {
+  font-size: 60px;
+  padding-right: 30px;
+}
 
-  }
+.contact aside h1 {
+  font-size: 50px;
+  font-family: "Roboto Mono", monospace;
+  padding-right: 20px;
+  margin-left: 25px;
+  padding-top: 20px;
+  height: 200px;
+  border-right: 3px solid red;
+  margin-bottom: 70px;
+}
 
-  .contact aside h1 {
+.contact p {
+  margin-left: 350px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-family: "Roboto Mono", monospace;
+}
 
-    font-size: 50px;
-    font-family: 'Roboto Mono', monospace;
-    padding-right: 20px;
-    margin-left: 25px;
-    padding-top: 20px;
-    height: 200px;
-    border-right: 3px solid red;
-    margin-bottom: 70px;
-   
-  }
+.list-inline {
+  list-style: none;
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+  padding-left: 0;
+  padding-top: 150px;
+}
 
-  .contact p {
+.list-inline li {
+  display: inline-block;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
 
-    margin-left: 350px;
-    margin-right: 70px;
-    margin-bottom: 20px;
-    font-size: 25px;
-    font-family: 'Roboto Mono', monospace;
+.list-inline li a {
+  text-decoration: none;
+  font-size: 50px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  color: orange;
+}
 
-  }
+.list-inline li a:visited {
+  text-decoration: none;
+  color: orange;
+}
 
-  .list-inline {
-
-      list-style: none;
-      margin-left: -0.5em;
-      margin-right: -0.5em;
-      padding-left: 0;
-      padding-top: 150px;
-    }
-
-    .list-inline li {
-
-      display: inline-block;
-	    margin-left: 0.5em;
-	    margin-right: 0.5em;
-      
-    }
-
-    .list-inline li a {
-
-      text-decoration: none;
-      font-size: 50px;
-      font-family: 'Roboto Mono', monospace;
-      font-weight: bold;
-      color: orange;
-    }
-
-    .list-inline li a:visited {
-
-      text-decoration: none;
-      color: orange;
-      
-    }
-
-    
-    @media only screen and (max-width: 768px) {
- 
-    body {
+@media only screen and (max-width: 768px) {
+  body {
     width: auto;
-    }
-
   }
-
-
-    
-  
-
-  
-
-
-
- 
-
-
- 
-
-
-  
-
-
-  
-
-
-
-  
+}

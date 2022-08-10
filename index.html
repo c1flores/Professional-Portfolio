@@ -1,138 +1,147 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-    <meta charset="UTF-8">
-
-<!-- Website title -->
+    <!-- Website title -->
     <title>Christian's Portfolio</title>
 
+    <!-- Meta viewport tag so page renders good on all screen sizes (Laptop, Mobile) -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-<!-- Meta viewport tag so page renders good on all screen sizes (Laptop, Mobile) -->
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-
-<!-- Reset stylesheet along with default stylesheet to minimize cross-browser differences, used Google font for styling -->
+    <!-- Reset stylesheet along with default stylesheet to minimize cross-browser differences, used Google font for styling -->
     <link rel="stylesheet" href="./Assets/reset.css" />
     <link rel="stylesheet" href="./Assets/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto Slab" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Slab"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-    <!-- Beginning of Document's Body  -->
-<body>
-    
+  <!-- Beginning of Document's Body  -->
+  <body>
     <!-- Nav bar -->
     <header class="nav">
-
-        <nav>
-
-            <ul>
-
-                <li><a href="#Contact-Me">Contact Me</a></li>
-                <li><a href="#My-Work">My Work</a></li>
-                <li><a href="#About-Me">About Me</a></li>
-            
-            </ul>
-
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#Contact-Me">Contact Me</a></li>
+          <li><a href="#My-Work">My Work</a></li>
+          <li><a href="#About-Me">About Me</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Hero image with transparent overlay -->
     <div class="hero">
-        <div class="text">
-            <h1> Hi, my name is Christian</h1>
-        </div>
+      <div class="text">
+        <h1>Hi, my name is Christian</h1>
+      </div>
     </div>
 
-
-
     <section class="about-me">
+      <aside id="About-Me">
+        <div>
+          <h1>About Me</h1>
+        </div>
+      </aside>
 
-        <aside id="About-Me">
-        
-            <div>
-
-                <h1>About Me</h1>
-
-            </div>
-        
-        </aside>
-
-        <p>An enthusiastic learner and highly motivated individual, who is a recent graduate from the University of California, San Diego. I enjoy designing and coding beautifully simple things. I am an avid book worm and film junkie.</p>
-
+      <p>
+        An enthusiastic learner and highly motivated individual, who is a recent
+        graduate from the University of California, San Diego. I enjoy designing
+        and coding beautifully simple things. I am an avid book worm and film
+        junkie.
+      </p>
     </section>
 
-
     <section class="work">
+      <aside id="My-Work">
+        <div>
+          <h1>My Work</h1>
+        </div>
+      </aside>
 
-        <aside id="My-Work">
-        
-            <div>
-
-                <h1>My Work</h1>
-
+      <ul class="gallery">
+        <li class="case-study-1">
+          <div class="text-container">
+            <a
+              href="https://samwongdesign.notion.site/Public-Safety-and-Urban-Development-b67b68548082491b9bd9ee70c8e76102"
+            ></a>
+            <img
+              id="p1"
+              src="./Assets/Case Study 1.jpg"
+              alt="Crowdsourcing Safety App"
+            />
+            <div class="text-overlay">
+              <div class="transbox">
+                <h2>CrowdSourcing Safety</h2>
+              </div>
             </div>
-        
-        </aside>
+          </div>
+        </li>
 
-        <ul class="gallery">
-          <li>
-                     <a href="https://samwongdesign.notion.site/Public-Safety-and-Urban-Development-b67b68548082491b9bd9ee70c8e76102">
-                     <img id="p1" src="./Assets/Case Study 1.jpg" alt="Crowdsourcing Safety App" >
-                    </a>
-                     <h2>CrowdSourcing Safety</h2>
-               
-                     
-                
-           <li>
+        <li></li>
 
-           <li>
-                        <a href="https://docs.google.com/presentation/d/1tqU7SqaxRJG1S1T0H1VNSjTVxg3J0qG0jE0VKq3r-Hg/edit?usp=sharing">
-                        <img id="p2" src="./Assets/Case Study 2.jpg" alt="Ethical Shopping App">
-                         </a>
-                        <h2>Ethical Consumer App</h2>
-                
-           </li>
-            
-            <li>
-                    <a href="https://powerup.ucsddesign.co/">
-                    <img id="p3" src="./Assets/Case Study 3.jpg" alt="Bipoc Business Website Redesign">
-                    </a>
-                    <h2>Cafe X Website Redesign</h2>
-                
-            </li>
-          
-        </ul>
+        <li class="case-study-2">
+          <div class="text-container">
+            <a
+              href="https://docs.google.com/presentation/d/1tqU7SqaxRJG1S1T0H1VNSjTVxg3J0qG0jE0VKq3r-Hg/edit?usp=sharing"
+            ></a>
+            <img
+              id="p2"
+              src="./Assets/Case Study 2.jpg"
+              alt="Ethical Shopping App"
+            />
+            <div class="text-overlay">
+              <div class="transbox">
+                <h2>Ethical Consumer App</h2>
+              </div>
+            </div>
+          </div>
+        </li>
 
+        <li class="case-study-3">
+          <div class="text-container">
+            <a href="https://powerup.ucsddesign.co/"> </a>
+            <img
+              id="p3"
+              src="./Assets/Case Study 3.jpg"
+              alt="Bipoc Business Website Redesign"
+            />
+            <div class="text-overlay">
+              <div class="transbox">
+                <h2>Cafe X Website Redesign</h2>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
     </section>
 
     <section class="contact">
+      <aside id="Contact-Me">
+        <div>
+          <h1>
+            Contact <br />
+            Me
+          </h1>
+        </div>
+      </aside>
 
-        <aside id="Contact-Me">
-        
-            <div>
+      <ul class="list-inline">
+        <li><a href="">777.777.7777</a></li>
 
-                <h1>Contact <br> Me</h1>
+        <li><a href="">johndoe@gmail.com</a></li>
 
-            </div>
-        
-        </aside>
+        <li><a href="https://github.com/c1flores">GitHub</a></li>
 
-        <ul class="list-inline">
-
-            <li><a href="">777.777.7777</a></li>
-
-            <li><a href="">johndoe@gmail.com</a></li>
-
-            <li><a href="https://github.com/c1flores">GitHub</a></li>
-            
-            <li><a href="https://open.spotify.com/user/6c5wquyen27atgogv7jquj6i2?si=30047667553149b4">Spotify</a></li>
-        </ul>
-
-    
+        <li>
+          <a
+            href="https://open.spotify.com/user/6c5wquyen27atgogv7jquj6i2?si=30047667553149b4"
+            >Spotify</a
+          >
+        </li>
+      </ul>
     </section>
-
-
-</body>
+  </body>
 </html>
