@@ -1,12 +1,13 @@
-body {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.3;
-}
 
 :root {
   --border-link-color: orange;
   --main-font: "Roboto Mono", monospace;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
 }
 
 /* Nav color and overflow property in case of content overflow */
@@ -40,7 +41,7 @@ body {
   width: 100%;
   margin-bottom: 25px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../Assets/palm_springs.jpg");
+    url('../Relevant Screenshots/palm_springs.jpg');
   background-size: cover;
   background-position: center;
 }
