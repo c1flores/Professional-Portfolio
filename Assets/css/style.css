@@ -236,6 +236,39 @@ body {
   color: #000000;
 }
 
+/* Image 4 caption styling */
+.gallery li #p4 {
+  border: 5px solid var(--border-link-color);
+  max-height: 60%;
+  max-width: 60%;
+}
+.gallery .case-study-4 .text-container {
+  position: relative;
+}
+
+.gallery .case-study-4 .text-container .text-overlay {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-right: 20px;
+  margin-right: 240px;
+}
+
+.gallery .case-study-4 .text-container .text-overlay .transbox {
+  margin: 30px;
+  background-color: #c3c0c0;
+  opacity: 0.8;
+}
+
+.gallery .case-study-4 .text-container .text-overlay .transbox h2 {
+  font-weight: bold;
+  color: #000000;
+}
+
 /* Beginning of Contact Me section styling */
 .contact {
   margin-top: 30px;
