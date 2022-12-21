@@ -9,7 +9,8 @@ A portfolio of work can showcase your skills and talents to employers looking to
 
 ## Screenshots
 
-![P1](https://user-images.githubusercontent.com/81927296/191596649-f4ea47ad-92cc-483e-9e97-df4154b8601e.jpg)
-![P2](https://user-images.githubusercontent.com/81927296/191596660-48229a05-a526-47a9-b000-d1028973905b.jpg)
-![P3](https://user-images.githubusercontent.com/81927296/191596669-0257c757-0d2a-4138-a3df-4c10dbf98974.jpg)
+![P1](https://user-images.githubusercontent.com/81927296/208991207-9f49047f-647a-4f32-8ed2-499d18c88bfa.jpg)
+![P2](https://user-images.githubusercontent.com/81927296/208991216-574e6569-3987-4935-9aca-e01147d88b0c.jpg)
+![P3](https://user-images.githubusercontent.com/81927296/208991229-14d0023a-e840-4a1f-b5d4-ef7abd498081.jpg)
+![P4](https://user-images.githubusercontent.com/81927296/208991240-e5b3cf78-b3fe-4ae6-a123-57ba728bb4a1.jpg)
 
