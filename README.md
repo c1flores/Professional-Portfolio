@@ -7,6 +7,15 @@ A portfolio of work can showcase your skills and talents to employers looking to
 ## Linked to Deployed Application
 [Portfolio Website](https://c1flores.github.io/Professional-Portfolio/)
 
+## Technologies Used
+
+<div style="display: inline_block"><br>
+<img height="40" align="center" alt="Chris-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height="40" align="center" alt="Chris-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
 ## Screenshots
 
 ![P1](https://user-images.githubusercontent.com/81927296/208991207-9f49047f-647a-4f32-8ed2-499d18c88bfa.jpg)
